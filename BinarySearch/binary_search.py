@@ -41,13 +41,13 @@ def binary_search(l, target, low=None, high=None):
 
 if __name__=='__main__':
 
-    '''
+    
     l = [1, 3, 5, 10, 12]
     target = 3
     print('Naive search: ', naive_search(l, target))
     print('Binary search: ', binary_search(l, target))
 
-    '''
+    
     # it shows the time for each search in order to compare both of the methots
     # so, given the results, binary search is fastest
     length = 10000
